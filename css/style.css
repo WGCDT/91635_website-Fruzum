@@ -1,0 +1,100 @@
+.bg-dark {
+    background-image: url(../Images/DarkTile.jpg);
+}
+
+.bg-light {
+    background-image: url(../Images/Lightbackground.jpg);
+}
+
+.jumbotron {
+    background-image: url(../Images/Background_Tile.jpg);
+    text-align: center;
+    margin-top: 25px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+img {
+    padding-bottom: 10px;
+}
+
+.panel-default > .panel-heading {
+    background-color: rgb(58, 208, 81);
+}
+
+.panel-default > .panel-body {
+    background-color: rgb(7, 175, 97);
+}
+
+.float-right {
+    float: right;
+    margin-top: 5px;
+}
+
+.dark {
+    background-color: rgb(2, 142, 24);
+    color: rgb(87, 244, 87);
+}
+
+.light {
+    background-color: rgb(24, 209, 103);
+}
+
+
+/* Navigation for light background */
+
+.navbar-default {
+    background-color: rgb(16, 196, 78);
+    border: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgb(0, 255, 78);
+    /*Change active text color here*/
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(1, 157, 43);
+    /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(89, 201, 158);
+    /*BACKGROUND color for active*/
+    background-color: rgb(0, 255, 98);
+}
+
+.Copy {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* Navigation for light background end */
+
+@media (max-width:767px) {
+    .togbutton {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .reference-col {
+        padding: 0;
+    }
+}
